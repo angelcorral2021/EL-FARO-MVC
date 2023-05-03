@@ -177,7 +177,7 @@ $variable = "hola con PHP";
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/rusia.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/rusia.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">LA VISITA DE XI JINPING A RUSIA EN EL CONTEXTO DE LA GUERRA DE
                                 UCRANIA</h5>
@@ -203,7 +203,7 @@ $variable = "hola con PHP";
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/gripe.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/gripe.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">CONFIRMAN PRIMER CASO DE HUMANO DE GRIPE AVIAR EN CHILE</h5>
                             <p class="card-text">El Ministerio de Salud de Chile informó este miércoles el primer caso
@@ -229,7 +229,7 @@ $variable = "hola con PHP";
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/red-hot-chili-peppers-2022-promo-03-web-768x432.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/red-hot-chili-peppers-2022-promo-03-web-768x432.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">RED HOT CHILI PEPPERS AGOTA ENTRADAS EN CHILE</h5>
                             <p class="card-text">La banda de rock Red Hot Chili Peppers ha anunciado su gira mundial
@@ -279,7 +279,7 @@ $variable = "hola con PHP";
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
                         <audio controls>
                             <source src="./audio/Black Summer (Unlimited Love Album).mp3" type="audio/mpeg">
                         </audio>

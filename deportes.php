@@ -170,7 +170,7 @@
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/noticia1.png" class="card-img-top" alt="...">
+                        <img src="./Imagenes/noticia1.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Estos son los favoritos de las Grandes Ligas</h5>
                             <p class="card-text">En una larga temporada llena de emociones, hay varios equipos que se
@@ -187,7 +187,7 @@
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/noticia2.png" class="card-img-top" alt="...">
+                        <img src="./Imagenes/noticia2.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Muere Carlos Vaca, campeón panamericano</h5>
                             <p class="card-text">Carlos Vaca, campeón panamericano de tiro con arco, falleció a los 20
@@ -203,7 +203,7 @@
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/noticia3.png" class="card-img-top" alt="...">
+                        <img src="./Imagenes/noticia3.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Los Kings cortaron con una mala racha</h5>
                             <p class="card-text">Los Kings de Sacramento cargaban con el peso de ser la franquicia con
@@ -221,7 +221,7 @@
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
                         <audio controls>
                             <source src="./audio/Black Summer (Unlimited Love Album).mp3" type="audio/mpeg">
                         </audio>

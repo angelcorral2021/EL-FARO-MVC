@@ -169,7 +169,7 @@
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/greenglass.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/greenglass.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Los mejores vasos del mundo que contribuyen con el Medioambiente</h5>
                             <p class="card-text">Este miércoles 25 de agosto se realizó una entretenida charla junto a
@@ -192,7 +192,7 @@
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/sercotec.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/sercotec.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Sercotec anuncia su calendario de convocatorias 2023</h5>
                             <p class="card-text">El servicio informó las fechas relevantes para postular a sus fondos
@@ -212,7 +212,7 @@
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <img src="./imagenes/chatgpt.png" class="card-img-top" alt="...">
+                        <img src="./Imagenes/chatgpt.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">ChatGPT: Italia se convierte en el primer país occidental en bloquear
                                 el acceso al
@@ -232,7 +232,7 @@
 
                 <div class="col-md-4 noticia">
                     <div class="card">
-                        <img src="./imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
+                        <img src="./Imagenes/Red-Hot-Chili-Peppers-Unlimited-Love.jpg" class="card-img-top" alt="...">
                         <audio controls>
                             <source src="./audio/Black Summer (Unlimited Love Album).mp3" type="audio/mpeg">
                         </audio>

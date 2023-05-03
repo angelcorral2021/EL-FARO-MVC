@@ -162,7 +162,7 @@ $nombre_archivo = $_GET['imagen'];
         <header class="display-4  text-white">Noticias destacadas</header>
             <div class="col-md-8 card-destacado" id="destacado"><!--Destacada-->
             <div class="card">
-            <?php echo '<img src="./imagenes/' . $nombre_archivo . '">';?> 
+            <?php echo '<img src="./Imagenes/' . $nombre_archivo . '">';?> 
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $titulo?></h5>
                             <p class="card-text"><?php echo $contenido?></p>
