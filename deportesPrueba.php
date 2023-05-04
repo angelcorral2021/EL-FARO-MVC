@@ -82,8 +82,8 @@ $nombre_archivo = $_GET['imagen'];
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio1.jpg" class="card-img-top" alt="Anuncio 1">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 1</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title"> McDonald's Chile</h5>
+                            <a href="https://www.mcdonalds.cl/productos" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -92,8 +92,8 @@ $nombre_archivo = $_GET['imagen'];
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio2.jpg" class="card-img-top" alt="Anuncio 2">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 2</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Compra Oreo</h5>
+                            <a href="https://rd.oreo-la.com/" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -102,8 +102,8 @@ $nombre_archivo = $_GET['imagen'];
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio3.jpg" class="card-img-top" alt="Anuncio 3">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 3</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Nuestros productos</h5>
+                            <a href="https://www.dammcorporate.com/es/nuestros-productos" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -112,8 +112,8 @@ $nombre_archivo = $_GET['imagen'];
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio4.jpg" class="card-img-top" alt="Anuncio 4">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 4</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Pan Bimbo</h5>
+                            <a href="https://www.bimbo.es/" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -121,7 +121,6 @@ $nombre_archivo = $_GET['imagen'];
             </div>
         </div>
     </section>
-
 
     <!--Navbar Secundario-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
@@ -159,16 +158,16 @@ $nombre_archivo = $_GET['imagen'];
 
         <div class="row"><!--Contenedor de noticias en horizontal-->
 
-        <header class="display-4  text-white">Noticias destacadas</header>
+            <header class="display-4  text-white">Noticias destacadas</header>
             <div class="col-md-8 card-destacado" id="destacado"><!--Destacada-->
-            <div class="card">
-            <?php echo '<img src="./Imagenes/' . $nombre_archivo . '">';?> 
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $titulo?></h5>
-                            <p class="card-text"><?php echo $contenido?></p>
-                            <a href="#" class="btn btn-primary">Ir a la noticia</a>
-                        </div>
+                <div class="card">
+                    <?php echo '<img src="./Imagenes/' . $nombre_archivo . '">'; ?>
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $titulo ?></h5>
+                        <p class="card-text"><?php echo $contenido ?></p>
+                        <a href="#" class="btn btn-primary">Ir a la noticia</a>
                     </div>
+                </div>
 
             </div>
 
@@ -236,10 +235,10 @@ $nombre_archivo = $_GET['imagen'];
 
                 <div class="col-md-4 noticia"><!--Grupo de 3 tarjetas-->
                     <div class="card">
-                        <?php echo '<img src="./imagenes/' . $nombre_archivo . '">';?> 
+                        <?php echo '<img src="./imagenes/' . $nombre_archivo . '">'; ?>
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo $titulo?></h5>
-                            <p class="card-text"><?php echo $contenido?>
+                            <h5 class="card-title"><?php echo $titulo ?></h5>
+                            <p class="card-text"><?php echo $contenido ?>
                             </p>
                             <a href="#" class="btn btn-primary">Ir a la noticia</a>
                         </div>
@@ -262,7 +261,6 @@ $nombre_archivo = $_GET['imagen'];
 
 
 
-  
 
 
 
@@ -280,7 +278,8 @@ $nombre_archivo = $_GET['imagen'];
 
 
 
-  
+
+
 
 
 

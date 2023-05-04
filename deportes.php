@@ -64,8 +64,8 @@
     </nav>
 
 
-    <!--Anuncios-->
-    <section class="anuncios" style="background-color: yellow;">
+      <!--Anuncios-->
+      <section class="anuncios" style="background-color: yellow;">
         <div class="container">
             <div class="row">
 
@@ -73,8 +73,8 @@
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio1.jpg" class="card-img-top" alt="Anuncio 1">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 1</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title"> McDonald's Chile</h5>
+                            <a href="https://www.mcdonalds.cl/productos" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -83,8 +83,8 @@
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio2.jpg" class="card-img-top" alt="Anuncio 2">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 2</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Compra Oreo</h5>
+                            <a href="https://rd.oreo-la.com/" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -93,8 +93,8 @@
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio3.jpg" class="card-img-top" alt="Anuncio 3">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 3</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Nuestros productos</h5>
+                            <a href="https://www.dammcorporate.com/es/nuestros-productos" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
@@ -103,8 +103,8 @@
                     <div class="card card-anuncios">
                         <img src="./Imagenes/anuncio4.jpg" class="card-img-top" alt="Anuncio 4">
                         <div class="card-body">
-                            <h5 class="card-title">Anuncio 4</h5>
-                            <a href="#" class="btn btn-primary">Más información</a>
+                            <h5 class="card-title">Pan Bimbo</h5>
+                            <a href="https://www.bimbo.es/" class="btn btn-primary">Más información</a>
                         </div>
                     </div>
                 </div>
