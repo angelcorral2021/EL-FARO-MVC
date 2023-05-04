@@ -1,48 +1,63 @@
 <?php
-
-
-class Anuncio {
-    private $id;
+class Avisos
+{
     private $titulo;
     private $contenido;
-    private $idAdministrador;
+    private $fecha;
+    private $contacto;
 
-    public function __construct($id, $titulo, $contenido, $idAdministrador) {
-        $this->id = $id;
+    public function __construct($titulo, $contenido, $fecha, $contacto)
+    {
         $this->titulo = $titulo;
         $this->contenido = $contenido;
-        $this->idAdministrador = $idAdministrador;
+        $this->fecha = $fecha;
+        $this->contacto = $contacto;
     }
 
-    public function getId() {
-        return $this->id;
+    public function estado()
+    {
+        // Método para verificar el estado del aviso
     }
 
-    public function setId($id) {
-        $this->id = $id;
-    }
+    // Getters y Setters para los atributos
 
-    public function getTitulo() {
+    public function getTitulo()
+    {
         return $this->titulo;
     }
 
-    public function setTitulo($titulo) {
+    public function setTitulo($titulo)
+    {
         $this->titulo = $titulo;
     }
 
-    public function getContenido() {
+    public function getContenido()
+    {
         return $this->contenido;
     }
 
-    public function setContenido($contenido) {
+    public function setContenido($contenido)
+    {
         $this->contenido = $contenido;
     }
 
-    public function getIdAdministrador() {
-        return $this->idAdministrador;
+    public function getFecha()
+    {
+        return $this->fecha;
     }
 
-    public function setIdAdministrador($idAdministrador) {
-        $this->idAdministrador = $idAdministrador;
+    public function setFecha($fecha)
+    {
+        $this->fecha = $fecha;
+    }
+
+    public function getContacto()
+    {
+        return $this->contacto;
+    }
+
+    public function setContacto($contacto)
+    {
+        $this->contacto = $contacto;
     }
 }

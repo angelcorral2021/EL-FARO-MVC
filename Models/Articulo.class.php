@@ -1,69 +1,111 @@
 <?php
-
-
-
-class Noticia {
-    private $id;
+class Articulo
+{
     private $titulo;
+    private $categoria;
     private $contenido;
-    private $fechaPublicacion;
-    private $idPeriodista;
-    private $idSeccion;
+    private $fecha;
+    private $autor;
+    private $contador;
+    private $imagen;
+    private $video;
 
-    public function __construct($id, $titulo, $contenido, $fechaPublicacion, $idPeriodista, $idSeccion) {
-        $this->id = $id;
+    public function __construct($titulo, $categoria, $contenido, $fecha, $autor, $contador, $imagen, $video)
+    {
         $this->titulo = $titulo;
+        $this->categoria = $categoria;
         $this->contenido = $contenido;
-        $this->fechaPublicacion = $fechaPublicacion;
-        $this->idPeriodista = $idPeriodista;
-        $this->idSeccion = $idSeccion;
+        $this->fecha = $fecha;
+        $this->autor = $autor;
+        $this->contador = $contador;
+        $this->imagen = $imagen;
+        $this->video = $video;
     }
 
-    public function getId() {
-        return $this->id;
+    public function estadoPublicado()
+    {
+        // Método para verificar si el artículo ha sido publicado
     }
 
-    public function setId($id) {
-        $this->id = $id;
-    }
+    // Getters y Setters para los atributos
 
-    public function getTitulo() {
+    public function getTitulo()
+    {
         return $this->titulo;
     }
 
-    public function setTitulo($titulo) {
+    public function setTitulo($titulo)
+    {
         $this->titulo = $titulo;
     }
 
-    public function getContenido() {
+    public function getCategoria()
+    {
+        return $this->categoria;
+    }
+
+    public function setCategoria($categoria)
+    {
+        $this->categoria = $categoria;
+    }
+
+    public function getContenido()
+    {
         return $this->contenido;
     }
 
-    public function setContenido($contenido) {
+    public function setContenido($contenido)
+    {
         $this->contenido = $contenido;
     }
 
-    public function getFechaPublicacion() {
-        return $this->fechaPublicacion;
+    public function getFecha()
+    {
+        return $this->fecha;
     }
 
-    public function setFechaPublicacion($fechaPublicacion) {
-        $this->fechaPublicacion = $fechaPublicacion;
+    public function setFecha($fecha)
+    {
+        $this->fecha = $fecha;
     }
 
-    public function getIdPeriodista() {
-        return $this->idPeriodista;
+    public function getAutor()
+    {
+        return $this->autor;
     }
 
-    public function setIdPeriodista($idPeriodista) {
-        $this->idPeriodista = $idPeriodista;
+    public function setAutor($autor)
+    {
+        $this->autor = $autor;
     }
 
-    public function getIdSeccion() {
-        return $this->idSeccion;
+    public function getContador()
+    {
+        return $this->contador;
     }
 
-    public function setIdSeccion($idSeccion) {
-        $this->idSeccion = $idSeccion;
+    public function setContador($contador)
+    {
+        $this->contador = $contador;
+    }
+
+    public function getImagen()
+    {
+        return $this->imagen;
+    }
+
+    public function setImagen($imagen)
+    {
+        $this->imagen = $imagen;
+    }
+
+    public function getVideo()
+    {
+        return $this->video;
+    }
+
+    public function setVideo($video)
+    {
+        $this->video = $video;
     }
 }

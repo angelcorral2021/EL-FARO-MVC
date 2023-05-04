@@ -17,5 +17,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Mostrar mensaje de confirmación
     echo "Gracias por contactarnos. Su mensaje ha sido enviado con éxito.";
+
+    header("Location: ../index.php");
 }
 ?>

@@ -1,58 +1,71 @@
 <?php
+require_once('Persona.php');
 
+class Administrador extends Persona
+{
+    private $idAdmin;
+    private $rol;
+    private $login;
+    private $password;
 
-class Administrador {
-    private $id;
-    private $nombre;
-    private $apellido;
-    private $correo;
-    private $contrasena;
-
-    public function __construct($id, $nombre, $apellido, $correo, $contrasena) {
-        $this->id = $id;
-        $this->nombre = $nombre;
-        $this->apellido = $apellido;
-        $this->correo = $correo;
-        $this->contrasena = $contrasena;
+    public function __construct($id, $nombre, $edad, $telefono, $correo, $idAdmin, $rol, $login, $password)
+    {
+        parent::__construct($id, $nombre, $edad, $telefono, $correo);
+        $this->idAdmin = $idAdmin;
+        $this->rol = $rol;
+        $this->login = $login;
+        $this->password = $password;
     }
 
-    public function getId() {
-        return $this->id;
+    public function clasificar()
+    {
+        // Método para clasificar las noticias
     }
 
-    public function setId($id) {
-        $this->id = $id;
+    public function mantenerNoticia()
+    {
+        // Método para mantener las noticias
     }
 
-    public function getNombre() {
-        return $this->nombre;
+    // Getters y Setters para los atributos
+
+    public function getIdAdmin()
+    {
+        return $this->idAdmin;
     }
 
-    public function setNombre($nombre) {
-        $this->nombre = $nombre;
+    public function setIdAdmin($idAdmin)
+    {
+        $this->idAdmin = $idAdmin;
     }
 
-    public function getApellido() {
-        return $this->apellido;
+    public function getRol()
+    {
+        return $this->rol;
     }
 
-    public function setApellido($apellido) {
-        $this->apellido = $apellido;
+    public function setRol($rol)
+    {
+        $this->rol = $rol;
     }
 
-    public function getCorreo() {
-        return $this->correo;
+    public function getLogin()
+    {
+        return $this->login;
     }
 
-    public function setCorreo($correo) {
-        $this->correo = $correo;
+    public function setLogin($login)
+    {
+        $this->login = $login;
     }
 
-    public function getContrasena() {
-        return $this->contrasena;
+    public function getPassword()
+    {
+        return $this->password;
     }
 
-    public function setContrasena($contrasena) {
-        $this->contrasena = $contrasena;
+    public function setPassword($password)
+    {
+        $this->password = $password;
     }
 }
